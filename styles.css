@@ -1,6 +1,82 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
+body {
+    font-family: cursive; width: 960px; height: 100%;
+     background-image: url(sand.jpg);
+  text-shadow: white 0px 0px 2px;
+  font-size: 18px;
+  background-size: 960px;
+}
+
+aside {
+    width: 440px; height: 100%; float: right;
+
+}
+section {
+    align-content: left;
+    font-weight: bold;
+    background-color: #fff;
+    padding-left: 10px;
+    margin-left: 20px;
+    marging-top: 20px;
+    text-align: left;
+    text-decoration: none;
+
+}
+#content {
+marging-top: 20px; margin-left: 5px;
+
+}
+.poem {
+    background-color: #fff;
+    padding-top: 20px;
+}
 h1 {
-    color: green;
+    color: #000; font-family: fantasy; padding: 10px;
+}
+p {
+    margin-left: 10px;
+}
+.page-header {
+    background-color: beige; border-bottom: 4px solid;
+}
+.citation {
+font-weight: bold; background-color: none; margin-left: 50px;
+}
+ul {
+    list-style: none; line-height: 2em; display: block; align-content: center;
+}
+li:first-letter {
+	font-weight: bold;
+	font-size: 300%
+	background-color: red;
+}
+a:link {
+	color: blue; font-weight: bold; text-decoration: none;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:hover, a:focus {
+    color: #ff0000;
+	text-decoration: #ff0000;
+}
+
+a:active {
+	font-weight: bold;
+}
+.page-footer {
+    background-color: #fff; background-color:azure;
+}
+.page-footer a {
+    color: blue; display: inline; margin: 0;    padding: 8px 8px 8px 8px;
+}
+.page-footer {
+    text-decoration: #ff0000; font-weight: bold;
+}
+.page-credits {
+    background-color: blue; color: white;
 }
