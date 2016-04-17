@@ -1,6 +1,153 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+body {
+  font-family: fantasy;
 }
+h1 {
+  font-family: cursive;
+}
+p {
+  font-family: sans-serif;
+}
+header.page-header {
+  outline: 8px burlywood;
+  outline-style: double;
+  background-color: #FF00FF;
+  background-image: url('images/Xanadu_on_Map_of_Asia.JPG');
+  border-radius: 10px;
+}
+.page-header h1 {
+  margin-bottom: 0;
+  text-shadow: 1px 1px grey;
+}
+.page-header p {
+  margin-top: 0; 
+}
+.page-header small {
+  font-size: medium;
+}
+aside.more-info {
+  background-color: #FFD700;
+  background-image: url('images/sand.jpg');
+  border: solid 5px saddlebrown;
+  font-family: sans-serif; 
+}
+aside.more-info p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+aside.more-info img {
+  float: left;
+  border-radius: 38%;
+  margin: 0 0 5px 5px;
+  padding: -2rem;
+  width: 100px;
+  height: 125px; 
+}
+ul.info-links {
+  list-style-type: none;
+  font-size: 16px;
+}
+ul.social-links {
+  font-size: 16px;
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+}
+ul.social-links li {
+  display: inline;
+}
+li a:hover:not(.active) {
+    background-color: #8FBC8F;
+}
+.active {
+  background-color: #FFD700;
+}
+section#content {
+  background-image: url('images/sand.jpg');
+  background-color: powderblue;
+  padding: .5rem;
+  border: 10px solid saddlebrown;
+  margin: .3rem;
+}
+.poem {
+  list-style-type: none;
+  color: #8B4513;
+}
+.poem li {
+  font-size: large;
+  line-height: 1.8;
+}
+.poem li:first-child::first-letter {
+  font-size: 135%;
+  color: rgb(0,134,139);
+}
+.poem li:nth-child(6)::first-letter {
+  font-size: 135%;
+  color: rgb(0,134,139);
+}
+.poem li:nth-child(31)::first-letter {
+  font-size: 135%;
+  color: rgb(0,134,139);
+}
+.poem li:nth-child(37)::first-line {
+  font-size: 90%;
+  color: #9932CC;
+}
+.poem li:nth-child(38)::first-line {
+  font-size: 90%;
+  color: #9932CC;
+}
+.poem li:nth-child(39)::first-line {
+  font-size: 90%;
+  color: #9932CC;
+}
+.poem li:nth-child(40)::first-line {
+  font-size: 90%;
+  color: #9932CC;
+}
+.poem li:nth-child(41)::first-line {
+  font-size: 90%;
+  color: #9932CC;
+}
+.poem li:nth-child(42)::first-line {
+  font-size: 90%;
+  color: #9932CC;
+}
+.poem li:nth-child(43)::first-line {
+  font-size: 90%;
+  color: #9932CC;
+}
+.poem li:nth-child(44)::first-line {
+  font-size: 90%;
+  color: #9932CC;
+}
+.poem li:nth-child(45)::first-line {
+  font-size: 90%;
+  color: #9932CC;
+}
+.poem li:nth-child(46)::first-letter {
+  font-size: 135%;
+  color: rgb(0,134,139);
+}
+footer.content-footer {
+  padding: .5rem;
+  background-image: url('images/sand.jpg');
+  background-color: mistyrose;
+  font: 12px saddlebrown; 
+}
+footer.page-footer {
+  padding: .5rem;
+  background-color: burlywood;
+  font: 12px saddlebrown;
+  border: 8px solid saddlebrown;
+  padding: 10px;
+  border-bottom-right-radius: 10em;
+}
+ul {
+  list-style-type: none;
+}
+
+
+
