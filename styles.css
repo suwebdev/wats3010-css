@@ -1,6 +1,142 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+/* Begin Body */
+/* Added font-family-fantasy; background color */
+body {
+  font-family: fantasy;
+  background-color: rgba(3, 1, 1, 0.24);
 }
+
+/* Added style to page header */
+/* Added font family=cursive; outline=double; margin; padding; background color and image */
+.page-header {
+  font-family: cursive;
+  outline: 8px black double;
+  margin: 10px;
+  padding: 10px;
+  background-color: #FF00FF;
+  background-image: url('images/Xanadu_on_Map_of_Asia.JPG');
+  opacity: 0.7;
+}
+.page-header h1 {
+  font-size: 40px;
+  text-shadow: 2px 2px grey;
+}
+.page-header p {
+  font-size: 25px;
+  text-indent: 20px;
+  font-weight: bold;
+}
+/* End Header */
+
+/* Added style to Aside */
+
+.more-info {
+  float: right;
+  border: solid 2.5px black;
+  font-family: sans-serif; 
+  width: 500px;
+  height: 375px;
+  margin: 5px;
+  padding: 5px;
+}
+.more-info p {
+ float-offset: 5px;
+ margin: 5px;
+ padding: 8px;
+}
+.more-info img {
+  float: right;
+  margin: 0 0 5px 5px;
+  padding: 2px;
+  width: 225px;
+  height: 275px; 
+}
+/* Added style to info-links; display,font size; removed bullets */
+.info-links ul {
+  display: block;
+  list-style-type: none;
+  font-size: 16px;
+}
+/* Added style to social-links; font size; removed bullets */
+.social-links ul {
+  font-size: 16px;
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+}
+/* Changed display to be horizontal */
+.social-links li {
+  display: inline;
+}
+
+.active {
+  background-color: darkgray;
+}
+/*End styling aside */
+
+/* Begin styling Poem */
+#content {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Removed bullets; changed color */
+.poem {
+  list-style-type: none;
+  color: black;
+}
+.poem li {
+  font-size: large;
+  line-height: 1.8;
+}
+/* Added style to First Letter of each section of poem */
+.poem li:first-child::first-letter {
+  font-size: 175%;
+  color: hsla(355, 98%, 49%, 0.96);
+}
+.poem li:nth-child(6)::first-letter {
+  font-size: 175%;
+  color: hsla(355, 98%, 49%, 0.96);
+}
+.poem li:nth-child(31)::first-letter {
+  font-size: 175%;
+  color: hsla(355, 98%, 49%, 0.96);
+}
+.poem li:nth-child(46)::first-letter {
+  font-size: 175%;
+  color: hsla(355, 98%, 49%, 0.96);
+}
+/* End styling of poem */
+
+/* Begin styling of footer */
+/* Added styling to footer: color, font, margin, padding */
+.content-footer {
+  margin: 5px;
+  color: rgba(3, 1, 1, 0.24);
+  padding: 3px;
+  font: 16px black; 
+}
+.citation {
+  color: black;
+}
+/* Added image to page footer w/opacity and font styling */
+.page-footer {
+  background-image: url('images/Xanadu_on_Map_of_Asia.JPG');
+  opacity: 0.7;
+  padding: 10px;
+  font: 16px black;
+  border: 3px solid black;
+}
+ul {
+  list-style-type: none;
+}
+/* Centered last line of footer */
+.page-credits {
+  text-align: center;
+}
+/* End Footer*/
+
+/* End Edits and Styling of CSS Style Sheet */
+
