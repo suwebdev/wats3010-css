@@ -3,7 +3,7 @@
 
 .page-header {
     color: black;
-    font-family: sans-serif;
+    font-family: sans-serif; /*best practice is to use 3 font families in case your browser doesn't support the one you have listed*/
     font-style: underline;
     text-align: center
   }
