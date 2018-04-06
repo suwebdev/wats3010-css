@@ -8,13 +8,13 @@ use of common CSS properties and patterns.
 Please refer to the resources page within the course for additional information
 about how to complete the assignment and resources about CSS.
 
-Requirements
+Basic Requirements
 ------------
 
 To complete this assignment, you must write styles to create an elegant visual
 presentation for the poem "Kubla Khan" by Samuel Taylor Coleridge. Your goal
 is to create an elegant and appealing presentation for the information contained
-in the index.html file. (Please note: You do not need to edit the HTML file to
+in the `index.html` file. (Please note: You do not need to edit the HTML file to
 complete this assignment.)
 
 Be sure to complete all of the following steps:
@@ -38,7 +38,7 @@ is included in the page with an ``<img>`` tag, and should be styled as content
 on the page. The remaining images can be used as background images in style
 definitions. You do not need to use all of the images that are provided. All of
 the provided resources are cited on the index.html page. You do not need to
-remove unused resources. (You do not need to edit the ``index.html`` file.)
+remove unused resources. (You are not required to edit the ``index.html`` file.)
 
 Stretch Goals
 -------------
@@ -52,3 +52,5 @@ challenges:
 * Use opacity in a ``background-color`` definition by using ``rgba`` color
   definition.
 * Give something rounded corners using ``border-radius``.
+* Add unique images to your project to make it more interesting.
+* Alter the HTML in the `index.html` file to create a more unique vision for the page.
