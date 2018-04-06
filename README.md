@@ -1,7 +1,7 @@
-wats1010-css
+WATS 3010: Basic CSS Project
 ============
 
-This is the source repository for WATS1010: Introduction to Web Development
+This is the source repository for WATS3010: Introduction to Web Development
 Basic CSS assignment. This assignment is designed to help you practice your
 use of common CSS properties and patterns.
 
