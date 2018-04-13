@@ -19,6 +19,7 @@ complete this assignment.)
 
 Be sure to complete all of the following steps:
 
+1. Add `<link>` element to the `index.html` to reference your external stylesheet.
 1. Create styles that help **visually group** the information on the page.
 2. **Remove the bullets** on lists where bullets do not help with readability.
 3. Use at least **one background image** somewhere on the page.
